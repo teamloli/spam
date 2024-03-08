@@ -2,7 +2,8 @@ const axios = require('axios');
 const FormData = require('form-data');
 
 function spam() {
-    const formUrl = 'https://docs.google.com/forms/u/0/d/e/1FAIpQLSc17lCFNaoPAIirIGcQjBe98hD18rkuq1AksFxZxz5Bk3N5oA/formResponse';
+    const formUrl = '
+https://docs.google.com/forms/u/0/d/e/1FAIpQLSeYytx4Hs4Mx69bAu5kfzGU6EcsDiKhRmipSKyFvOvwBL7e7Q/formResponse';
 const formData = new FormData();
 formData.append('entry.1328153896', 'Slurd');
 formData.append('entry.877803157', 'Slurd1');
